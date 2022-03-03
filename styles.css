@@ -1,0 +1,54 @@
+
+
+
+p:not(.header1 p) {
+	margin-inline-start: 10%;
+	margin-inline-end: 10%;
+}
+
+
+h2{
+	background-color: Grey;
+	color: white;
+	font-family: Arial;
+	text-shadow: 2px 2px black;
+}
+
+
+body{
+	text-align:center;
+	background-color:rgb(139, 164, 235);
+}
+
+@media (max-width: 700px) {
+	body{
+		background-color: rgb(87, 134, 120);		
+	}
+}
+
+#id_SoftwareSkills {
+	list-style-type: square;
+}
+
+
+
+.containerMain{
+	display:flex;
+	flex-flow: column nowrap;
+	justify-content:space-between;
+	gap:150px;
+}
+
+
+.header1{
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+	background-color:beige;
+}
+
+
+
+.headedArea1 > h2{
+	margin-bottom:0;
+}
